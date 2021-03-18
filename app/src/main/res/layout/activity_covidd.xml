@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_quiz"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activity_covid">
+
+    <TextView
+        android:id="@+id/sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="16dp"
+        android:text="Questions"
+
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:fontFamily="casual"
+            android:text="Previous"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/nextButton"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:background="#F44336"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="Have you traveled to a high-risk Country/Indian state or been in contact with someone who is ill in the last 14 days?"
+        android:textAlignment="center"
+
+        android:textSize="20sp" />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true">
+    <RadioButton
+        android:id="@+id/yesButton"
+        android:layout_width="100dp"
+        android:fontFamily="@font/mo_re"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="yes"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/noButton"
+        android:layout_width="90dp"
+        android:fontFamily="@font/mo_re"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="no"
+        android:textSize="25sp" />
+    </RadioGroup>
+</LinearLayout>
+
+</LinearLayout>

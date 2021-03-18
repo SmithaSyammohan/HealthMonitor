@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthmonitor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthMonitor">
+        <activity android:name=".ui.activity.DetailActivitya"></activity>
+        <activity android:name=".ui.activity.MainActivitya"/>
+        <activity android:name=".CovidActivity"/>
+        <activity android:name=".activity_covid" />
+        <activity android:name=".activity_results" />
+        <activity android:name=".activity_results2" />
+
+
+        <activity android:name=".Exercise8" />
+        <activity android:name=".Exercise7" />
+        <activity android:name=".Exercise6" />
+        <activity android:name=".Exercise5" />
+        <activity android:name=".Exercise4" />
+        <activity android:name=".Exercise3" />
+        <activity android:name=".Exercise2" />
+        <activity android:name=".Exercise1" />
+        <activity android:name=".FitnessActivity" />
+        <activity android:name=".PieActivity" />
+        <activity android:name=".CalorieActivity" />
+        <activity android:name=".ScActivity" />
+        <activity android:name=".WaterActivity" />
+        <activity android:name=".BmiActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+ <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

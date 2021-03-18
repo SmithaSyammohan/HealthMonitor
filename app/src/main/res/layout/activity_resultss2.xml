@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_results2">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="As per assesment,you are not a likely suspect of COVID19."
+        android:textAlignment="center"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="Incase your symptoms change. please take the self-assessment again or contact any healthcare facility near you or call 108."
+        android:textAlignment="center"
+        android:textSize="23sp" tools:layout_editor_absoluteY="266dp" />
+
+
+
+    <TextView
+        android:id="@+id/msg2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="In case you suspect that you are COVID-positive, please call 104 or report to nearby healthcare facilities."
+        android:textAlignment="center"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteY="126dp" />
+    <TextView
+        android:id="@+id/msg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="This is not medical advice."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="475dp" />
+</LinearLayout>

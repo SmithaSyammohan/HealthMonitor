@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_results2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="232dp"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/viruss"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/sugg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="Based on the assesment, you are at risk for COVID-19"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/sugg1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:fontFamily="@font/mo_re"
+        android:padding="8dp"
+        android:text="This is not medical advice"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+
+</LinearLayout>
